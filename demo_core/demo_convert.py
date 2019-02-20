@@ -1,0 +1,10 @@
+x = '1.75'
+print(type(x), x, repr(x))
+x = float(x)
+print(type(x), x, repr(x))
+x = int(x)
+print(type(x), x, repr(x))
+x = bool(x)
+print(type(x), x, repr(x))
+x = str(x)
+print(type(x), x, repr(x))
